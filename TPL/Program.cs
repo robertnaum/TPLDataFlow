@@ -13,7 +13,7 @@ namespace TPL
     {
         static void Main(string[] args)
         {
-            Demo1.Run();
+            Demo6.Run();
            // Demo2.Run();
         }
 

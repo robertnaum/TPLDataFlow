@@ -20,7 +20,7 @@ namespace TPL
             }, new ExecutionDataflowBlockOptions()
             {
                 TaskScheduler = TaskScheduler.Default,
-                MaxDegreeOfParallelism = 4
+                //MaxDegreeOfParallelism = 4
             });
             for (int i = 0; i < 10; i++)
             {
