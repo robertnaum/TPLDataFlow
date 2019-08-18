@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 
-namespace TPL
+namespace TPLCore
 {
     class Demo1
     {
@@ -27,6 +27,7 @@ namespace TPL
             ab.Complete();
             ab.Completion.Wait();
             Console.WriteLine("done");
+
         }
 
     }

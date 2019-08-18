@@ -17,7 +17,6 @@ namespace TPL
             var item = jb.Receive();
             Console.WriteLine(item);
 
-            Console.ReadLine();
 
 
         }

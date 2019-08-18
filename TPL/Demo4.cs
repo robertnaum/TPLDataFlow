@@ -23,7 +23,6 @@ namespace TPL
                 tb.Post(i);
             }
 
-            Console.ReadLine();
         }
     }
 }
