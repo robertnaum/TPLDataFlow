@@ -1,12 +1,13 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace TPLCore
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Demo1.Run();
+            await Demo8.Run();
             Console.ReadLine();
         }
     }
